@@ -21,7 +21,7 @@ export const App = () => {
         setBad(prevState => prevState + 1);
         break;
       default:
-        throw new Error();
+        throw new Error('Something went wrong');
     }
   };
 
